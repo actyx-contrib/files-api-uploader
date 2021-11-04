@@ -1,5 +1,7 @@
 # files-api-uploader
-With Actyx v2.8.0, we've released the `Files API` that provides for uploading to, retrieving from and naming files in Actyx. Shout-out to @wngr who made that happen :pray:. For details, please refer to the reference in the [develveloper documentation](https://developer.actyx.com/docs/reference/files-api)
+With Actyx v2.8.0, we've released the `Files API` that provides for uploading to, retrieving from and naming files in Actyx. Shout-out to @wngr who made that happen :pray:. 
+
+For details, please refer to the reference in the [develveloper documentation](https://developer.actyx.com/docs/reference/files-api)
 
 This repository contains a simple app to upload (multiple) files to Actyx to get you started. Hope that helps.
 
