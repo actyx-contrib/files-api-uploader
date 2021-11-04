@@ -60,7 +60,7 @@ $ echo bafybeiaqela5uulk5qycsxncdtv36stuowojyuso3dnwlaninksco5cfpi | \
 5. Upload files or SPA folders as you see fit, noting their `CID`s in case you want to name them as well. Use drag'n'drop to add files, enter your auth token (see step 1) in the corresponding field and click `upload`.
 ![image](https://user-images.githubusercontent.com/189410/140385146-8c6ef8ae-1a38-4f80-b3bc-66d42bbad4be.png)
 
-6. You can now go ahead, add new content again and/or assign names to existing `CID`s as described before (or build an uploader that takes care of this :-)), e.g.
+6. You can now go ahead, add new content again and/or assign names to existing `CID`s as described before (or make a PR implementing naming against this repo 😏), e.g.
 ```bash
 echo bafybeieod6ngzponojuau3vwxshptnwqcdoa436obbgv3z2jluxzlc4wqy | \
   curl -s -X PUT \
