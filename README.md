@@ -5,9 +5,9 @@ For details, please refer to the reference in the [develveloper documentation](h
 
 This repository contains a simple app to upload (multiple) files to Actyx to get you started. Hope that helps.
 
-## Files API
+## 📄 Files API
 
-### Capabilities
+### ✨ Capabilities
 * Files can be uploaded as `multipart/formdata`. 
 * To make uploading more convenient than using `curl`, this repository contains a sample uploader HTML page to allow for uploading files and folder hierarchies more easily.
 * Uploading a file returns a content identifier (`CID`), which is a unique hash based on the file's content.
@@ -18,7 +18,7 @@ This repository contains a simple app to upload (multiple) files to Actyx to get
 * The Actyx Naming Service (`ANS`) allows you to attach a name to a `CID` and access the content using that name through `http://<name>.actyx.localhost:4454/<optional path>`. You can also update that name to point to a different `CID`, allowing you to roll out new versions of a file/app.
 * The authentication token for Actyx API access can be provided through the `?token=...` query parameter.
 
-### Walk-Through
+### 🚶🏻‍♂️ Walk-Through
 1. Get an authentication token using an Actyx manifest and store it in the `AUTH_TOKEN` variable. Uses `curl` to make the request and `jq` to parse the result.
 ```bash
 $ export AUTH_TOKEN=$(echo '
