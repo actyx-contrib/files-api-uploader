@@ -1,3 +1,7 @@
+# IMPORTANT NOTICE
+
+**This repository has been archived and is no longer maintained. You are welcome to copy the code into your own projects and continue using it at your own discretion and risk.**
+
 # files-api-uploader
 With Actyx v2.8.0, we've released the `Files API` that provides for uploading to, retrieving from and naming files in Actyx. Shout-out to @wngr who made that happen :pray:. 
 
